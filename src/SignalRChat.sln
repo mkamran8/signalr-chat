@@ -7,7 +7,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{1A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat", "Chat", "{9F98F4C4-16B3-41DE-9FE8-F843F046F334}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Server", "Services\Chat\Chat.Server\Chat.Server.csproj", "{12468DFA-E521-4850-AC27-155750BDEB67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.Server", "Services\Chat\Chat.Server\Chat.Server.csproj", "{12468DFA-E521-4850-AC27-155750BDEB67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{DFA8D892-68B6-4978-A65D-25942E6C7FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.RazorWebPages", "Web\Chat.RazorWebPages\Chat.RazorWebPages.csproj", "{C5F84C44-D936-49EA-9BA4-FCAF82878727}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +23,10 @@ Global
 		{12468DFA-E521-4850-AC27-155750BDEB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12468DFA-E521-4850-AC27-155750BDEB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12468DFA-E521-4850-AC27-155750BDEB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5F84C44-D936-49EA-9BA4-FCAF82878727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F84C44-D936-49EA-9BA4-FCAF82878727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F84C44-D936-49EA-9BA4-FCAF82878727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F84C44-D936-49EA-9BA4-FCAF82878727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9F98F4C4-16B3-41DE-9FE8-F843F046F334} = {1A29FAB1-8407-4A32-B33B-EACF91BAC3E6}
 		{12468DFA-E521-4850-AC27-155750BDEB67} = {9F98F4C4-16B3-41DE-9FE8-F843F046F334}
+		{C5F84C44-D936-49EA-9BA4-FCAF82878727} = {DFA8D892-68B6-4978-A65D-25942E6C7FD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3AAD3FE4-8014-4593-9D65-20B69D4A243D}
